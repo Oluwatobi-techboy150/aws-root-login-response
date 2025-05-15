@@ -8,3 +8,4 @@
 The JSON pattern used for detecting root account logins is saved in:
 
 [root-login-rule.json](./root-login-rule.json)
+[root-login-rule.json](./root-login-rule.json)
