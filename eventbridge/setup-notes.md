@@ -1,6 +1,6 @@
 ## EventBridge Rule: RootloginDetector
 
-- I Created an EventBridge rule named **RootloginDetector*
+- I created an EventBridge rule named **RootloginDetector*
 - The rule uses a custom **event pattern** to detect AWS **root account sign-ins** based on CloudTrail logs.
 - Target: **SNS topic** RootLoginAlertTopic to send an email notification.
 - I also assigned a new **execution role** automatically to allow EventBridge to publish to SNS.
