@@ -35,7 +35,7 @@ I had already enabled CloudTrail to log management events across all regions. Th
   
 ![confirmation email for SNS topic subscription](https://github.com/user-attachments/assets/e4533f01-6f86-493a-9a0b-c324973d6f5c)
 
-### ✅ Step 3: Create the EventBridge Rule
+### Step 3: Create the EventBridge Rule
 
 - Go to EventBridge → Rules → Create Rule
 - Rule name: RootloginDetector
@@ -44,7 +44,8 @@ I had already enabled CloudTrail to log management events across all regions. Th
 - Rule type: Standard rule
 - **Paste this JSON under “Event Pattern”:**
 
- {
+ ```json
+{
   "source": ["signin.amazonaws.com"],
   "detail-type": ["AWS Console Sign In via CloudTrail"],
   "detail": {
@@ -56,6 +57,7 @@ I had already enabled CloudTrail to log management events across all regions. Th
     }
   }
 }
+```
 
 
 
