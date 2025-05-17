@@ -44,8 +44,7 @@ I had already enabled CloudTrail to log management events across all regions. Th
 - Rule type: Standard rule
 - **Paste this JSON under “Event Pattern”:**
 
- ## json
-{
+ {
   "source": ["signin.amazonaws.com"],
   "detail-type": ["AWS Console Sign In via CloudTrail"],
   "detail": {
@@ -59,11 +58,13 @@ I had already enabled CloudTrail to log management events across all regions. Th
 }
 
 
+
 ![JSON event pattern used in the EventBridge rule](https://github.com/user-attachments/assets/64e3701a-34ca-4ebc-a2ca-a7e6e3d0acc6)
 
 ## SNS email alert I got after I tried to loging to my AWS console. 
 
-![SNS email Alert](https://github.com/user-attachments/assets/e9c7f7b6-051a-41dc-b23b-ebe3615cf3e6)
+![SNS email Alert](https://github.com/user-attachments/assets/6f025bf2-7f8c-4bf9-93cf-2d506c7dce82)
+)
 
 _(Account number blurred for security)_
 
