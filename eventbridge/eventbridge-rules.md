@@ -83,7 +83,7 @@ These screenshots confirm that my configuration worked as expected.
 
 - I encountered some issues while setting this up. EventBridge wasn’t triggering at first, and I couldn’t select the SNS topic until I confirmed the email subscription. It reminded me how one small misstep can break the whole chain.
 
-- Testing a real login from another device gave me confidence that everything worked. This phase taught me how tightly connected each AWS service is — and how important it is to test and verify, not just configure.
+- Testing a real login from another device gave me confidence that everything worked. This phase taught me how tightly connected each AWS service is and how important it is to test and verify, not just configure.
 
 ## Reflection
 
