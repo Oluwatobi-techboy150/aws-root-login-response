@@ -39,5 +39,3 @@ While I initially planned to send an email alert using SNS and store the event i
 
 This gives me a working detection + response pipeline that I can build on later.
 
- See the Lambda code → [`lambda/root-login-handler.py`](lambda/root-login-handler.py)
-
