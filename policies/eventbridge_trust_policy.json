@@ -1,4 +1,5 @@
-## This trust policy allows EventBridge to assume the IAM role to invoke Lambda.
+This trust policy allows EventBridge to assume the IAM role to invoke Lambda.
+
 
 {
   "Version": "2012-10-17",
