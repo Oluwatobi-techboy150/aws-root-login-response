@@ -4,7 +4,7 @@
 
 2. lambda_execution_policy.json – Grants Lambda permission to write logs to CloudWatch. It also includes permission to publish messages to SNS, if you decide to enable SNS alerts later.
 
- _Note: Replace YOUR_SNS_TOPIC_ARN with your actual SNS topic ARN when setting it up._
+   _Note: Replace YOUR_SNS_TOPIC_ARN with your actual SNS topic ARN when setting it up._
 
 3. sns_publish_policy.json – Use this as a dedicated policy if you want to isolate SNS publishing permissions. Otherwise, you can merge these permissions into the Lambda execution policy above.
 
