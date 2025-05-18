@@ -1,7 +1,5 @@
 ## This trust policy allows EventBridge to assume the IAM role to invoke Lambda.
 
-```json
-
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -14,4 +12,3 @@
     }
   ]
 }
-```
