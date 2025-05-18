@@ -11,15 +11,17 @@ This project detects and responds to AWS root account usage in real time using:
 * **CloudTrail** for logging API calls
 * **EventBridge** for triggering actions
 * **Lambda** for lightweight auto-response
-* **SNS** and **S3** for alerting and evidence capture
+* **SNS** (configured for alerts, though not used in final response)  
+* **S3** (implemented in a previous project for evidence capture)
+
 
 ---
 
 ## Phase 1: Detection with CloudTrail + EventBridge
 
-I started by enabling CloudTrail and setting it to log **management events** for all read/write activity. Then I configured **Amazon EventBridge** to monitor for the `ConsoleLogin` event — specifically when the user identity is the **root account**.
+I started by enabling CloudTrail and configuring it to log all management events, including both read and write activity. Then I set up Amazon EventBridge to monitor for the ConsoleLogin event, specifically when the user identity is the root account.
 
-This event pattern triggers a rule that forwards the event to a target — in this case, an AWS Lambda function for automated response.
+This event pattern triggers a rule that forwards the event to a target, which in this case is an AWS Lambda function that performs the automated response.
 
 ---
 
