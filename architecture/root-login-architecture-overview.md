@@ -1,5 +1,5 @@
 # Architecture Overview
-
+![641125DD-EABB-4575-817B-A1E262D738FF](https://github.com/user-attachments/assets/e33264c9-8d6d-4c9e-84c7-788aaae99b5d)
 This project is a simple, serverless setup that watches for root logins and reacts quickly.
 
 ### Key parts:
@@ -22,3 +22,5 @@ This project is a simple, serverless setup that watches for root logins and reac
 - Keeps things simple and modular.  
 - Focuses on clear visibility before adding automation.  
 - Builds understanding by doing and documenting everything step-by-step.  
+
+![641125DD-EABB-4575-817B-A1E262D738FF](https://github.com/user-attachments/assets/e33264c9-8d6d-4c9e-84c7-788aaae99b5d)
