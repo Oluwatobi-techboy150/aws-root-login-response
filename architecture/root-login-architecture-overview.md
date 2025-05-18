@@ -1,5 +1,5 @@
 # Architecture Overview
-![641125DD-EABB-4575-817B-A1E262D738FF](https://github.com/user-attachments/assets/e33264c9-8d6d-4c9e-84c7-788aaae99b5d)
+![Overview Diagram](https://github.com/user-attachments/assets/377d68d3-a396-4ec2-9d80-dedd88579bf8)
 
 This project is a simple, serverless setup that watches for root logins and reacts quickly.
 
